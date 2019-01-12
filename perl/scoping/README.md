@@ -1,6 +1,4 @@
-## Variables and Scoping
-
-### Reference
+## Reference
 - [Coping with Scoping](https://perl.plover.com/FAQs/Namespaces.html)
 
 ----
