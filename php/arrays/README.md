@@ -1,6 +1,4 @@
-### Using Array in PHP
-
-<br>
+## Using Array in PHP
 
 - Basic Use of Arrays in PHP
 
@@ -85,3 +83,5 @@ foreach (array_expression as $key => $value) {
 ```
 
 <br>
+
+

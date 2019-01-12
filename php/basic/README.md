@@ -1,6 +1,4 @@
-### Basic PHP Coding
-
-<br>
+## Basic PHP Coding
 
 - Weird PHP Code
 
