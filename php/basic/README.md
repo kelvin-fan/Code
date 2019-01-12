@@ -1,4 +1,4 @@
-### Basic PHP Programming
+### Basic PHP Coding
 
 <br>
 
@@ -35,4 +35,51 @@ print $garbage3;
 
 <br>
 
+- Loops in PHP
+
+```php
+// For Loop
+for ($x = 1; $x <= 20; $x++) {
+   print $x;
+   print "<br>\n";   
+}
+print "<br>\n";
+
+
+// While Loop
+$x = 10;
+
+while ($x > 0) {
+   print "\$x = $x";
+   print "<br>\n";
+   $x--;
+}
+print "<br>\n";
+
+
+// Do While Loop
+$y = 0;
+
+do {
+   print "At Least Execute Once !!";
+} while ($y > 0);
+```
+
+<br>
+
+- If statement
+
+```php
+$x = 10;
+
+if ($x < 10) {
+   print "Less than 10 !!";
+} elseif ($x >= 10 && $x <= 20) {
+   print "Between 10 and 20 !!";
+} else {
+   print "Greater than 20 !!";
+}
+```
+
+<br>
 
