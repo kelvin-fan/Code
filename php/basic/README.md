@@ -1,5 +1,7 @@
 ## Basic PHP Coding
 
+<br>
+
 - Weird PHP Code
 
 ```php

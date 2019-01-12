@@ -1,5 +1,7 @@
 ## Using Array in PHP
 
+<br>
+
 - Basic Use of Arrays in PHP
 
 ```php
@@ -16,7 +18,8 @@ print "<br>";
 
 // Key indexed Array in PHP
 $hash = array('name' => 'Bob',
-              'city' => 'Sydney'       
+              'city' => 'Sydney',       
+              '3'    => 'Dummy'
 );
 
 $hash1 = ['name' => 'Zoe', 'city' => 'Melbourne'];
@@ -24,6 +27,7 @@ $hash1 = ['name' => 'Zoe', 'city' => 'Melbourne'];
 print_r($hash);
 print "<br>";
 print $hash['name'];
+print $hash['3'];   // $hash[3] can also be used (no single quote)
 ```
 
 <br>
@@ -84,4 +88,14 @@ foreach (array_expression as $key => $value) {
 
 <br>
 
+- Multi-Dimensional Array
+
+```php
+$x = array('first'  => array(1, 2),
+           'second' => array(3, 4),
+           '3'      => 'Hello PHP !!'
+);
+
+print "{$x['first'][1]}";
+```
 
