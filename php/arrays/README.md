@@ -86,9 +86,9 @@
      }
      ```
      
-     <br>
+<br>
      
-     - Multi-Dimensional Array
+-   Multi-Dimensional Array
      
      ```php
      $x = array('first'  => array(1, 2),
