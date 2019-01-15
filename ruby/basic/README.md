@@ -10,6 +10,7 @@
 1. [Getting Input](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#getting-Input)
 1. [Variable Scope and Constant](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#variable-scope-and-constant)
 1. [Ranges and Case statement in Ruby](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#ranges-and-case-statement-in-ruby)
+1. [Symbols in Ruby](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#symbols-in-ruby)
 
 ---
 
@@ -173,5 +174,38 @@ when (4..6)
    puts "x is between 4 and 6 !!!"
 else
    puts "Neither of the first two cases !!!"
+end
+```
+
+<br>
+
+#### Symbols in Ruby
+
+```ruby
+#!/usr/bin/env ruby
+
+# In Ruby, symbol is more like an identifier which is unique
+puts :some_sym.object_id
+puts :some_sym.object_id
+
+# :some_sym = 10   will produce an error
+
+# Efficiency issue
+# More efficient - since symbols with the same identifier have the same reference and initialised once
+s = :symbol
+
+if s == :symbol
+   puts "Equal !!"
+else
+   puts "Not equal !!"
+end
+
+# Less efficient - since every mentioned of "string" creates a new object
+s = "string"
+
+if s == "string"
+   puts "Equal !!"
+else
+   puts "Not equal !!"
 end
 ```
