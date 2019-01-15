@@ -1,9 +1,10 @@
 ## Basic Ruby Programming
 
 ## Table of Contents
-1. [`puts` vs `print`](#`puts` vs `print`)
+1. [puts vs print](#puts vs print)
+1. [Getting Input](#Getting Input)
 
-### `puts` vs `print`
+### `put` vs `print`
 
      ```ruby
      #!/usr/bin/env ruby
@@ -107,7 +108,7 @@
 
 <br>
 
--   Getting Input
+### Getting Input
 
      ```ruby
      #!/usr/bin/env ruby
