@@ -1,4 +1,4 @@
-![Ruby Logo](https://findicons.com/files/icons/899/ruby_programming/256/ruby.png)
+![Ruby Logo](https://findicons.com/files/icons/899/ruby_programming/256/ruby.png) { height: 200px; width: 200px; }
 
 ## Table of Contents
 1. [puts vs print](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#put-vs-print)
