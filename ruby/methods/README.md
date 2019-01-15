@@ -1,8 +1,8 @@
 ![Ruby Logo](https://findicons.com/files/icons/899/ruby_programming/256/ruby.png)
 
 ## Table of Contents
-1. [Writing Methods](https://github.com/ZeroSword-X/programming/tree/master/ruby/advanced#writing-methods)
-1. [Methods ending with ? or !](https://github.com/ZeroSword-X/programming/tree/master/ruby/advanced#method-ending-with--or-)
+1. [Writing Methods](https://github.com/ZeroSword-X/programming/tree/master/ruby/methods#writing-methods)
+1. [Methods ending with ? or !](https://github.com/ZeroSword-X/programming/tree/master/ruby/methods#method-ending-with--or-)
 
 ---
 

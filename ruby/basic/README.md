@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [puts vs print](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#put-vs-print)
 1. [Truthy and Falsy values in Ruby](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#Truthy-and-Falsy-values-in-Ruby)
-1. [if..elsif..else statement with and, or](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#ifelsifelse-statement-with-and-or)
+1. [if..elsif..else statement](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#ifelsifelse-statement-with-and-or)
 1. [Operator precedence - and vs &&](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#operator-precedence---and-vs-)
 1. [String operations](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#string-operations)
 1. [Execute external command](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#execute-external-command)
