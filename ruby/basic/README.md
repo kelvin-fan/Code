@@ -1,4 +1,4 @@
-![Ruby Logo](https://findicons.com/files/icons/899/ruby_programming/256/ruby.png) { height: 200px; width: 200px; }
+![Ruby Logo](https://findicons.com/files/icons/899/ruby_programming/256/ruby.png)
 
 ## Table of Contents
 1. [puts vs print](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#put-vs-print)
@@ -8,6 +8,7 @@
 1. [String operations](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#string-operations)
 1. [Execute external command](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#execute-external-command)
 1. [Getting Input](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#Getting-Input)
+1. [Variable Scope and Constant](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#Variable-Scope-and-Constant)
 
 ---
 
@@ -129,6 +130,16 @@ input = gets
 
 puts input 
 ```
+
+<br>
+
+#### Variable Scope and Constant
+
+- **constants**: starts with an uppercase letter, followed by name characters
+- **local** variable: starts with a lowercase letter or an underscore, followed by name characters
+- **instance** variable: starts with `@` followed by a name
+- **class** variable: starts with `@@`, followed by a name
+- **global** variable: start with `$`, followed by name characters
 
 <br>
 
