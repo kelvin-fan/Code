@@ -9,6 +9,7 @@
 1. [Execute external command](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#execute-external-command)
 1. [Getting Input](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#getting-Input)
 1. [Variable Scope and Constant](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#variable-scope-and-constant)
+1. [Ranges and Case statement in Ruby](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#ranges-and-case-statement-in-ruby)
 
 ---
 
@@ -143,4 +144,34 @@ puts input
 
 <br>
 
+#### Ranges and Case statement in Ruby
 
+```ruby
+#!/usr/bin/env ruby
+
+# Range is a class in Ruby
+# (1..4)    4 is inclusive
+# (1...4)   4 is NOT inclusive
+
+# convert (1..10) to an array - [1, 2, 3, ..., 10]
+array = (1..10).to_a
+
+
+# ===, the case equality operator
+
+# Usage 1: check if some value falls within a range
+puts (1..10) === 5          # output: true
+puts ('a'..'z') === 'zz'    # output: false
+
+# Usage 2: use in case statement (implicitly)
+x = 4
+
+case x
+when (1..3)
+   puts "x is between 1 and 3 !!!"
+when (4..6)
+   puts "x is between 4 and 6 !!!"
+else
+   puts "Neither of the first two cases !!!"
+end
+```
