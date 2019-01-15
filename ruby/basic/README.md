@@ -185,8 +185,9 @@ end
 #!/usr/bin/env ruby
 
 # In Ruby, symbol is more like an identifier which is unique
-puts :some_sym.object_id
-puts :some_sym.object_id
+# Note: cannot start with a number
+puts :some_sym.object_id   # same value as below 
+puts :some_sym.object_id   # same value as above
 
 # :some_sym = 10   will produce an error
 
