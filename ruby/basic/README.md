@@ -14,6 +14,15 @@
 
 <br>
 
+-   Truthy and Falsy values in Ruby
+
+    ```ruby
+    Falsy: ONLY false, and nil
+    Truthy: anything else other than false and nil. For instance, [], 0, "" (empty string) are truthy
+    ```
+
+<br>
+
 -   `if..elsif..else` statement with `and`, `or`
 
      ```ruby
@@ -50,6 +59,47 @@
      if not 3 and nil
         puts "not 3 and nil: Hello !!"
      end
+     ```
+
+<br>
+
+-   String operations
+
+     ```ruby
+     #!/usr/bin/env ruby
+     
+     # string concatenation
+     puts "Hello" + " " + "World" + " !!"
+     
+     # string interpolation
+     h = "Hello"
+     s = "#{h} World !!"
+     puts s
+     
+     # string repeatition
+     puts "Hello " * 5
+
+     # string append
+     puts "Hello" << " World !!"
+     ```
+
+<br>
+
+-   Execute external command 
+
+     ```ruby
+     #!/usr/bin/env ruby
+     
+     # backticks - return the output of the command
+     x = `ls -ali`
+     puts x
+     
+     # system('...') - return 
+     # 1. true if the command was executed properly
+     # 2. false if exited with a non-zero status                        
+     # 3. nil if failed to execute
+     y = system('ls -ali')
+     puts y
      ```
 
 <br>
