@@ -1,6 +1,9 @@
 ## Basic Ruby Programming
 
--   `puts` vs `print`
+## Table of Contents
+1. [`puts` vs `print`](#`puts` vs `print`)
+
+### `puts` vs `print`
 
      ```ruby
      #!/usr/bin/env ruby
@@ -16,7 +19,7 @@
 
 -   Truthy and Falsy values in Ruby
 
-    ```ruby
+    ```
     Falsy: ONLY false, and nil
     Truthy: anything else other than false and nil. For instance, [], 0, "" (empty string) are truthy
     ```
@@ -100,6 +103,23 @@
      # 3. nil if failed to execute
      y = system('ls -ali')
      puts y
+     ```
+
+<br>
+
+-   Getting Input
+
+     ```ruby
+     #!/usr/bin/env ruby
+     
+     # gets read a single line of data from stdin
+     input = gets
+     
+     # input = gets.chomp    note: chomp = eat the trailing newline "\n"
+     # input = gets(1000)    note: 1000 is the 'limit' in gets
+     # input = input.chomp
+     
+     puts input 
      ```
 
 <br>
