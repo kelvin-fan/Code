@@ -9,7 +9,7 @@
 
 ---
 
-### `put` vs `print`
+#### `put` vs `print`
 
 ```ruby
 #!/usr/bin/env ruby
@@ -23,7 +23,7 @@ print "Hello World\n"
 
 <br>
 
-### Truthy and Falsy values in Ruby
+#### Truthy and Falsy values in Ruby
 
 ```
 Falsy: ONLY false, and nil
@@ -32,7 +32,7 @@ Truthy: anything else other than false and nil. For instance, [], 0, "" (empty s
 
 <br>
 
-### `if..elsif..else` statement with `and`, `or`
+#### `if..elsif..else` statement with `and`, `or`
 
 ```ruby
 #!/usr/bin/env ruby
@@ -50,7 +50,7 @@ end
 
 <br>
 
-### Operator precedence - `and` vs `&&` 
+#### Operator precedence - `and` vs `&&` 
 
 ```ruby
 #!/usr/bin/env ruby
@@ -72,7 +72,7 @@ end
 
 <br>
 
-### String operations
+#### String operations
 
 ```ruby
 #!/usr/bin/env ruby
@@ -94,7 +94,7 @@ puts "Hello" << " World !!"
 
 <br>
 
-### Execute external command 
+#### Execute external command 
 
 ```ruby
 #!/usr/bin/env ruby
@@ -113,7 +113,7 @@ puts y
 
 <br>
 
-### Getting Input
+#### Getting Input
 
 ```ruby
 #!/usr/bin/env ruby
