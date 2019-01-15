@@ -2,7 +2,7 @@
 
 ## Table of Contents
 1. [Writing Methods](https://github.com/ZeroSword-X/programming/tree/master/ruby/methods#writing-methods)
-1. [Methods ending with ? or !](https://github.com/ZeroSword-X/programming/tree/master/ruby/methods#method-ending-with--or-)
+1. [Methods ending with ? or !](https://github.com/ZeroSword-X/programming/tree/master/ruby/methods#methods-ending-with--or-)
 
 ---
 

@@ -4,7 +4,7 @@
 1. [Ruby Code Blocks associated with method invocations](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#put-vs-print)
 1. [block_given?](https://github.com/ZeroSword-X/programming/tree/master/ruby/blocks#block_given---check-if-a-method-is-invoked-with-a-block-which-can-be-yielded)
 1. [Provide parameter to the block using yield](https://github.com/ZeroSword-X/programming/tree/master/ruby/blocks#provide-parameter-to-the-block-using-yield)
-1. [Block variable]()
+1. [Block variable](https://github.com/ZeroSword-X/programming/tree/master/ruby/blocks#block-variable---prevent-manipulating-variables-outside-of-its-scope)
 
 ---
 
