@@ -1,3 +1,5 @@
+![Ruby Logo](https://findicons.com/files/icons/899/ruby_programming/256/ruby.png)
+
 ## Table of Contents
 1. [puts vs print](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#put-vs-print)
 1. [Truthy and Falsy values in Ruby](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#Truthy-and-Falsy-values-in-Ruby)
