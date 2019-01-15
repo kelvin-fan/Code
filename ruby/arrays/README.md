@@ -1,9 +1,10 @@
 ![Ruby Logo](https://findicons.com/files/icons/899/ruby_programming/256/ruby.png)
 
 ## Table of Contents
-1. [Ruby arrays](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#put-vs-print)
-1. [Command line arguments]()
-1. [Iterating an array]()
+1. [Ruby arrays](https://github.com/ZeroSword-X/programming/tree/master/ruby/arrays#ruby-arrays)
+1. [Command line arguments](https://github.com/ZeroSword-X/programming/tree/master/ruby/arrays#command-line-arguments)
+1. [Iterating an array](https://github.com/ZeroSword-X/programming/tree/master/ruby/arrays#iterating-an-array-in-ruby)
+1. [Parallel assignment](https://github.com/ZeroSword-X/programming/tree/master/ruby/arrays#parallel-assignment)
 
 ---
 
