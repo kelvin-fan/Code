@@ -7,8 +7,8 @@
 1. [Operator precedence - and vs &&](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#operator-precedence---and-vs-)
 1. [String operations](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#string-operations)
 1. [Execute external command](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#execute-external-command)
-1. [Getting Input](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#Getting-Input)
-1. [Variable Scope and Constant](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#Variable-Scope-and-Constant)
+1. [Getting Input](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#getting-Input)
+1. [Variable Scope and Constant](https://github.com/ZeroSword-X/programming/tree/master/ruby/basic#variable-scope-and-constant)
 
 ---
 
@@ -142,4 +142,5 @@ puts input
 - **global** variable: start with `$`, followed by name characters
 
 <br>
+
 
