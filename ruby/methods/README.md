@@ -2,7 +2,8 @@
 
 ## Table of Contents
 1. [Writing Methods](https://github.com/ZeroSword-X/programming/tree/master/ruby/advanced#writing-methods)
-1. []()
+1. [Methods ending with ? or !](https://github.com/ZeroSword-X/programming/tree/master/ruby/advanced#method-ending-with--or-)
+
 ---
 
 #### Writing Methods
@@ -34,10 +35,7 @@ puts foo2(1, 2, 3, "33")
 
 <br>
 
-#### Method ending with `?` or `!`
+#### Methods ending with `?` or `!`
 
-- Conventionally (of Ruby), methods ending with '?' answers the question posed by method invocation
-- Conventionlly, methods ending with '!', known as **Bang Methods**, they are "dangerous" since they manipulate the original object, instead of returning a fresh object. For instance, **sort** vs **sort!**
-
-<br>
-
+- Conventionally (In Ruby), methods ending with '?' answers the question posed by method invocation
+- Conventionally, methods ending with '!', known as **Bang Methods**, they are "dangerous" since they manipulate the original object, instead of returning a fresh object. For instance, **sort** vs **sort!**
