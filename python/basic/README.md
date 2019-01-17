@@ -92,7 +92,7 @@ Passed
 
 #### and/or expressions 
 
-   **Note**: Return the last evaluated item, even closed the expression with brackets
+- **Note**: Return the last evaluated item, even closed the expression with brackets
 
 ```python
 >>> string1, string2, string3 = '', 'Trondheim', 'Hammer Dance'
