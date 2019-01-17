@@ -1,13 +1,13 @@
 ![Python Logo](https://www.python.org/static/community_logos/python-logo.png)
 
 ## Table of Contents
-1. [Immutable String]()
-1. [Dictionary]()
-1. [Tuple]()
-1. [Multiple conditions in if statement]()
-1. [and, or expressions]()
-1. [How to use sorted()]()
-1. [Global variable]()
+1. [Immutable String](https://github.com/ZeroSword-X/programming/tree/master/python/basic#string-in-python3-is-immutable)
+1. [Dictionary](https://github.com/ZeroSword-X/programming/tree/master/python/basic#dictionary-in-python3)
+1. [Tuple](https://github.com/ZeroSword-X/programming/tree/master/python/basic#tuple-in-python3)
+1. [Multiple conditions in if statement](https://github.com/ZeroSword-X/programming/tree/master/python/basic#more-than-one-condition-in-if-else-statement)
+1. [and, or expressions](https://github.com/ZeroSword-X/programming/tree/master/python/basic#andor-expressions)
+1. [How to use sorted()](https://github.com/ZeroSword-X/programming/tree/master/python/basic#how-to-use-sorted-in-python-how-to-use-the-key-argument)
+1. [Global variable](https://github.com/ZeroSword-X/programming/tree/master/python/basic#how-to-use-and-modify-global-variables)
 
 ---
 
@@ -90,7 +90,9 @@ Passed
 
 <br>
 
-#### and/or expressions (Return the last evaluated item, even closed the expression with brackets)
+#### and/or expressions 
+
+**Note**: Return the last evaluated item, even closed the expression with brackets
 
 ```python
 >>> string1, string2, string3 = '', 'Trondheim', 'Hammer Dance'

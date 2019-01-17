@@ -1,16 +1,15 @@
 ![Python Logo](https://www.python.org/static/community_logos/python-logo.png)
 
 ## Table of Contents
-1. [nonlocal statement]()
-1. [args and kwargs]()
-1. [list comprehension]()
+1. [nonlocal statement](https://github.com/ZeroSword-X/programming/tree/master/python/advanced#nonlocal-in-python3)
+1. [args and kwargs](https://github.com/ZeroSword-X/programming/tree/master/python/advanced#args-and-kwargs)
+1. [list comprehension](https://github.com/ZeroSword-X/programming/tree/master/python/advanced#list-comprehension)
 
 ---
 
-#### nonlocal in python3
+#### `nonlocal` in python3
 
-- [nonlocal statement](https://docs.python.org/3/reference/simple_stmts.html#grammar-token-nonlocal-stmt)
-   - [Example](https://www.cnblogs.com/z360519549/p/5172020.html)
+- [Documentation about nonlocal statement in Python3](https://docs.python.org/3/reference/simple_stmts.html#grammar-token-nonlocal-stmt) ([Example](https://www.cnblogs.com/z360519549/p/5172020.html))
 
 <br>
 

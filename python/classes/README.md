@@ -1,9 +1,9 @@
 ![Python Logo](https://www.python.org/static/community_logos/python-logo.png)
 
 ## Table of Contents
-1. [Name mangling]()
-1. [Class variable]()
-1. [Iterators and Generators]()
+1. [Name mangling](https://github.com/ZeroSword-X/programming/tree/master/python/classes#private-variables---name-mangling-in-python)
+1. [Class variable](https://github.com/ZeroSword-X/programming/tree/master/python/classes#shared-class-variables)
+1. [Iterators and Generators](https://github.com/ZeroSword-X/programming/tree/master/python/classes#iterators-and-generators)
 
 ---
 
