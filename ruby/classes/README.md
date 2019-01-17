@@ -24,7 +24,8 @@ class Dog
 end
 
 d = Dog.new('Bobby')
-d.bark```
+d.bark
+```
 
 <br>
 
