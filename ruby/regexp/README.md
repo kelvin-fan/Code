@@ -1,7 +1,7 @@
 ![Ruby Logo](https://findicons.com/files/icons/899/ruby_programming/256/ruby.png)
 
 ## Table of Contents
-1. [Match a regexp](https://github.com/ZeroSword-X/programming/tree/master/ruby/regexp#regular-expressions-matches)
+1. [Match a regexp](https://github.com/ZeroSword-X/programming/tree/master/ruby/regexp#regular-expression-matches)
 1. [Collect matches](https://github.com/ZeroSword-X/programming/tree/master/ruby/regexp#how-to-collect-regex-matches)
 
 ---
