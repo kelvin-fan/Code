@@ -4,6 +4,7 @@
 1. [Write a new class](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#writing-a-new-class)
 1. [Useful methods](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#useful-methods-for-all-classes)
 1. [Method missing](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#method-missing)
+1. [Add new methods](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#add-methods-to-an-existing-class)
 
 ---
 
