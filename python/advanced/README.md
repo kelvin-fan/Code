@@ -22,14 +22,12 @@ def foo(*args, **kwargs):
    print(type(args))
    print(type(kwargs))
 
+
+# Output:
+# <class 'tuple'>
+# <class 'dict'>
+
 foo(1, 2, 3, sth='something')    
-```
-
-**Output**
-
-```
-<class 'tuple'>
-<class 'dict'>
 ```
 
 <br>
