@@ -82,3 +82,36 @@ end
 
 Dummy.new.anything  
 ```
+
+<br>
+
+#### Add methods to an existing class
+
+> In Ruby, classes are never closed: you can always add methods to an existing class. This applies to the classes you write as well as the standard, built-in classes. All you have to do is open up a class definition for an existing class, and the new contents you specify will be added to whatever's there.
+
+
+```ruby
+#!/usr/bin/env ruby
+
+class Dog
+   def initialize(name)
+      @name = name
+   end
+
+   def bark
+      puts "My name is #{@name}"
+   end
+end
+
+
+# Add new methods to a class
+class Dog
+   def ultimate
+      puts "Wo Wo Wo !!!"
+   end
+end
+
+d = Dog.new('Bobby')
+d.bark
+d.ultimate
+```
