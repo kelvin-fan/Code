@@ -6,6 +6,8 @@
 1. [Method missing](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#method-missing)
 1. [Add new methods](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#add-methods-to-an-existing-class)
 1. [Inheritance](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#inheritance)
+1. [Overriding methods](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#overriding-methods)
+1. [Method overloading](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#method-overloading)
 
 ---
 
@@ -134,7 +136,7 @@ end
 # class Teacher inherits class People
 class Teacher < People
    def initialize(age=18)
-      super("Tim")   # call the initialize method of the parent class
+      super("Tim")   # call the initialize method (i.e. method with the same name) of the parent class
       @age = age
    end
 end
@@ -164,8 +166,51 @@ class Teacher < People
    end
 end
 
-
 t = Teacher.new(42)
 print t.instance_variables   # output: [:@age]
 print "\n"
 ```
+
+<br>
+
+#### Overriding methods
+
+```ruby
+#!/usr/bin/env ruby
+
+class People
+   def initialize(name = "No Name")
+      @name = name
+   end
+
+   def show_name
+      print "#{name}\n"
+   end
+end
+
+class Teacher < People
+   def initialize(name)
+      # 1. super automatically passes all the arguments to the higher-up method
+      # 2. super() means no arguments
+      # 3. super(a,b,c) sends exactly those arguments (i.e. a, b and c)
+
+      super            
+      # super()        
+      # super("YY")
+   end
+
+   # method overriding
+   def show_name
+      print "Teacher: #{@name}\n" 
+   end
+end
+
+t = Teacher.new("Tim")
+t.show_name
+```
+
+<br>
+
+#### Method overloading
+
+- Reference: [http://rubylearning.com/satishtalim/ruby_overloading_methods.html](http://rubylearning.com/satishtalim/ruby_overloading_methods.html)
