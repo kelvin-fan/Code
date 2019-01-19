@@ -141,13 +141,12 @@ end
 ```
 
 > All Ruby objects have a set of instance variables. These are **not defined** by the objects's class - they are simply created when a value is assigned to them. Because instance variables are not defined by a class, they are unrelated to subclassing and the inheritance mechanism.
-
-> In the above code, Lab defines an initialize method that chains to the initialize method of its super-class. The chained method assigns values to the variable @breed, which makes those variables come into existence for a particular instance of Lab.
-
-> The reason that they sometimes appear to be inherited is that instance variables are created by the methods that first assign values to them, and those methods are often inherited or chained.
-
-> Since instance variables have **nothing to do with inheritance**, it follows that an instance variable used by a subclass cannot "shadow" an instance variable in the super-class. If a subclass uses an instance variable with the same name as a variable used by one of its ancestors, it will overwrite the value of its ancestor's variable.
 >
+> In the above code, Lab defines an initialize method that chains to the initialize method of its super-class. The chained method assigns values to the variable @breed, which makes those variables come into existence for a particular instance of Lab.
+>
+> The reason that they sometimes appear to be inherited is that instance variables are created by the methods that first assign values to them, and those methods are often inherited or chained.
+>
+> Since instance variables have **nothing to do with inheritance**, it follows that an instance variable used by a subclass cannot "shadow" an instance variable in the super-class. If a subclass uses an instance variable with the same name as a variable used by one of its ancestors, it will overwrite the value of its ancestor's variable.
 
 ```ruby
 #!/usr/bin/env ruby
