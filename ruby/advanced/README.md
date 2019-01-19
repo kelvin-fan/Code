@@ -3,6 +3,7 @@
 ## Table of Contents
 1. [Exceptions](https://github.com/ZeroSword-X/programming/tree/master/ruby/advanced#exception-handling)
 1. [Syntactic sugar](https://github.com/ZeroSword-X/programming/tree/master/ruby/advanced#syntactic-sugar)
+1. [The keyword `self`](https://github.com/ZeroSword-X/programming/tree/master/ruby/advanced#syntactic-sugar)
 
 ---
 
@@ -113,3 +114,31 @@ end
      puts p.gender
      p.gender = "Female"
      ```
+
+<br>
+
+#### self in Ruby
+
+> At every point when your program is running, there is **one and only one** self - the current or default object accessible (i.e. the object that is receiving the current message)
+
+```ruby
+#!/usr/bin/env ruby
+
+class Outside 
+   puts "Just started class Outside --> #{self}"
+   
+   module NestMod  
+      puts "Just started module NestMod --> #{self}"  
+   end 
+ 
+   puts "Back in the outer level of Outside --> #{self}"
+end  
+```
+
+- **Output:**
+
+    ```
+    Just started class Outside --> Outside
+    Just started module NestMod --> Outside::NestMod
+    Back in the outer level of Outside --> Outside
+    ```
