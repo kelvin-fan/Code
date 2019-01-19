@@ -3,7 +3,8 @@
 ## Table of Contents
 1. [Exceptions](https://github.com/ZeroSword-X/programming/tree/master/ruby/advanced#exception-handling)
 1. [Syntactic sugar](https://github.com/ZeroSword-X/programming/tree/master/ruby/advanced#syntactic-sugar)
-1. [The keyword `self`](https://github.com/ZeroSword-X/programming/tree/master/ruby/advanced#syntactic-sugar)
+1. [The keyword `self`](https://github.com/ZeroSword-X/programming/tree/master/ruby/advanced#self-in-ruby)
+1. [Singleton and Class methods](https://github.com/ZeroSword-X/programming/tree/master/ruby/advanced#singleton-and-class-methods)
 
 ---
 
@@ -117,9 +118,10 @@ end
 
 <br>
 
-#### self in Ruby
+#### `self` in Ruby
 
 > At every point when your program is running, there is **one and only one** self - the current or default object accessible (i.e. the object that is receiving the current message)
+
 
 ```ruby
 #!/usr/bin/env ruby
@@ -141,4 +143,55 @@ end
     Just started class Outside --> Outside
     Just started module NestMod --> Outside::NestMod
     Back in the outer level of Outside --> Outside
+    ```
+
+<br>
+
+#### Singleton and Class methods
+
+> Singleton methods are those attached to a particular object can be called by only one object
+
+> Class methods are defined as singleton methods for class objects
+
+
+- Reference: [http://leohetsch.com/demystifying-ruby-singleton-classes/](http://leohetsch.com/demystifying-ruby-singleton-classes/)
+
+
+```ruby
+#!/usr/bin/env ruby
+
+class People
+   def initialize(name = "No name")
+      @name = name
+   end
+
+   # or def self.foo ... end
+   def People.foo
+      self
+   end
+end
+
+p1 = People.new("Alice")
+p2 = People.new("Bob")
+
+def p1.show
+   puts "#{self}"
+end
+
+p1.show
+puts p1       # p1 is the same object as the self in the method p1.show
+# p2.show     # produce exception NoMethodError
+
+# People is the same object as the self in the class method People.foo
+puts People.object_id
+puts People.foo.object_id
+```
+
+- **Output:**
+
+    ```
+    #<People:0x00000000e63d68>
+    #<People:0x00000000e63d68>
+    7544640
+    7544640
     ```
