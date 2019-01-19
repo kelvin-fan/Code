@@ -5,6 +5,7 @@
 1. [Useful methods](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#useful-methods-for-all-classes)
 1. [Method missing](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#method-missing)
 1. [Add new methods](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#add-methods-to-an-existing-class)
+1. [Class variables](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#class-variables)
 1. [Class methods](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#class-methods)
 1. [Inheritance](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#inheritance)
 1. [Overriding methods](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#overriding-methods)
@@ -120,6 +121,36 @@ end
 d = Dog.new('Bobby')
 d.bark
 d.ultimate
+```
+
+<br>
+
+#### Class variables
+
+```ruby
+#!/usr/bin/env ruby
+
+class People
+
+   # class variables must be initialized
+   # It is shared among all instances of a class
+   @@count = 0
+
+   def initialize(name = "No name")
+      @name = name
+      @@count += 1
+   end
+
+   def count
+      @@count
+   end
+
+end
+
+p1 = People.new("Alice")
+p2 = People.new("Bob")
+
+puts p1.count   # output: 2
 ```
 
 <br>
@@ -245,6 +276,9 @@ t.show_name
 1. Public methods can be called by everyone - no access control is enforced. A class's instance methods (these do not belong only to one object; instead, every instance of the class can call them) are public by default; anyone can call them. The initialize method is always private.
 1. Protected methods can be invoked only by objects of the **defining class and its subclasses**. Access is kept **within the family**. However, usage of protected is limited.
 1. Private methods **cannot be called with an explicit receiver** - the (implicit) receiver is always self. This means that private methods can be called only in the context of the current object; you cannot invoke another object's private methods.
+
+> In Ruby, public, private and protected apply only to methods.
+
 
 ```ruby
 #!/usr/bin/env ruby
