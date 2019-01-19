@@ -154,7 +154,7 @@ end
 > Class methods are defined as singleton methods for class objects
 
 
-- Reference: [http://leohetsch.com/demystifying-ruby-singleton-classes/](http://leohetsch.com/demystifying-ruby-singleton-classes/)
+Reference: [http://leohetsch.com/demystifying-ruby-singleton-classes/](http://leohetsch.com/demystifying-ruby-singleton-classes/)
 
 
 ```ruby

@@ -5,6 +5,7 @@
 1. [Useful methods](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#useful-methods-for-all-classes)
 1. [Method missing](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#method-missing)
 1. [Add new methods](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#add-methods-to-an-existing-class)
+1. [Class methods](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#class-methods)
 1. [Inheritance](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#inheritance)
 1. [Overriding methods](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#overriding-methods)
 1. [Method overloading](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#method-overloading)
@@ -119,6 +120,26 @@ end
 d = Dog.new('Bobby')
 d.bark
 d.ultimate
+```
+
+<br>
+
+#### Class methods
+
+```ruby
+#!/usr/bin/env ruby
+
+class People
+
+   # def self.hello ... end is also OK
+   def People.hello
+      "Hello World !!"
+   end
+
+end
+
+# invoke the class method hello of class People
+puts People.hello
 ```
 
 <br>
