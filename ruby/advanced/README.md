@@ -44,7 +44,7 @@ end
 
 #### Syntactic sugar
 
-##### Setters and Getters
+-   Setters and Getters
 
      ```ruby
      #!/usr/bin/env ruby
