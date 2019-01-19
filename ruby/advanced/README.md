@@ -80,7 +80,7 @@ end
      # p.name = "Peterson"   (cause exception: NoMethodError)
      
      # puts p.age            (cause exception: NoMethodError)
-     p.age = 43            # syntactic sugar: p.age=(43)
+     p.age = 43            # syntactic sugar for p.age=(43)
      
      puts p.gender
      p.gender = "Female"
