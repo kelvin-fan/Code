@@ -8,6 +8,7 @@
 1. [Inheritance](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#inheritance)
 1. [Overriding methods](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#overriding-methods)
 1. [Method overloading](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#method-overloading)
+1. [Access control](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#access-control)
 
 ---
 
@@ -184,7 +185,7 @@ class People
    end
 
    def show_name
-      print "#{name}\n"
+      print "#{@name}\n"
    end
 end
 
@@ -213,4 +214,59 @@ t.show_name
 
 #### Method overloading
 
+- Unlike Java, in ruby it is not allowed to have 2 versions of method with the same name. However, it can still be acheived using `*args`
 - Reference: [http://rubylearning.com/satishtalim/ruby_overloading_methods.html](http://rubylearning.com/satishtalim/ruby_overloading_methods.html)
+
+<br>
+
+#### Access control
+
+1. Public methods can be called by everyone - no access control is enforced. A class's instance methods (these do not belong only to one object; instead, every instance of the class can call them) are public by default; anyone can call them. The initialize method is always private.
+1. Protected methods can be invoked only by objects of the **defining class and its subclasses**. Access is kept **within the family**. However, usage of protected is limited.
+1. Private methods **cannot be called with an explicit receiver** - the (implicit) receiver is always self. This means that private methods can be called only in the context of the current object; you cannot invoke another object's private methods.
+
+```ruby
+#!/usr/bin/env ruby
+
+class People
+   def initialize(name = "No Name")
+      @name = name
+   end
+
+   def m1
+      puts "m1: inside public method"
+      # self.m3    produce NoMethodError
+      # m3         OK, no exception
+   end
+
+   def m2 
+      puts "m2: inside protected method"
+   end
+
+   def m3
+      puts "m3: inside private method"
+   end
+
+   def name
+      return @name
+   end
+
+   def compare_name(p2)
+      # it is OK to call the protected method (with receiver) inside the defining class and subclasses
+      if self.name < p2.name
+         puts "compare_name: <"
+      else
+         puts "compare_name: >="
+      end
+   end   
+
+   public    :m1, :compare_name
+   protected :m2, :name
+   private   :m3
+end
+
+p = People.new("Leon")
+p.m1
+# p.m2   Both p.m2 and p.m3 produces NoMethodError (exception)
+# p.m3
+```
