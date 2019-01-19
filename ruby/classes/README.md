@@ -5,6 +5,7 @@
 1. [Useful methods](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#useful-methods-for-all-classes)
 1. [Method missing](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#method-missing)
 1. [Add new methods](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#add-methods-to-an-existing-class)
+1. [Inheritance](https://github.com/ZeroSword-X/programming/tree/master/ruby/classes#inheritance)
 
 ---
 
@@ -115,4 +116,57 @@ end
 d = Dog.new('Bobby')
 d.bark
 d.ultimate
+```
+
+<br>
+
+#### Inheritance
+
+```ruby
+#!/usr/bin/env ruby
+
+class People
+   def initialize(name)
+      @name = name
+   end
+end
+
+# class Teacher inherits class People
+class Teacher < People
+   def initialize(age=18)
+      super("Tim")   # call the initialize method of the parent class
+      @age = age
+   end
+end
+```
+
+> All Ruby objects have a set of instance variables. These are **not defined** by the objects's class - they are simply created when a value is assigned to them. Because instance variables are not defined by a class, they are unrelated to subclassing and the inheritance mechanism.
+
+In the above code, Lab defines an initialize method that chains to the initialize method of its super-class. The chained method assigns values to the variable @breed, which makes those variables come into existence for a particular instance of Lab.
+
+The reason that they sometimes appear to be inherited is that instance variables are created by the methods that first assign values to them, and those methods are often inherited or chained.
+
+Since instance variables have **nothing to do with inheritance**, it follows that an instance variable used by a subclass cannot "shadow" an instance variable in the super-class. If a subclass uses an instance variable with the same name as a variable used by one of its ancestors, it will overwrite the value of its ancestor's variable.
+>
+
+```ruby
+#!/usr/bin/env ruby
+
+class People
+   def initialize(name)
+      @name = name
+   end
+end
+
+# class Teacher inherits class People
+class Teacher < People
+   def initialize(age=18)
+      @age = age
+   end
+end
+
+
+t = Teacher.new(42)
+print t.instance_variables   # output: [:@age]
+print "\n"
 ```
