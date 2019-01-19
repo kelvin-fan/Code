@@ -1,11 +1,11 @@
 ![Perl logo](https://www.brandeps.com/logo-download/P/Perl-01.png)
 
 ## Table of Contents
-1. [Lexical and Global variables]()
-1. ["local" variables]()
-1. [Package variables]()
-1. ["static" variables]()
-1. [Reference]()
+1. [Lexical and Global variables](https://github.com/ZeroSword-X/programming/tree/master/perl/scoping#lexical-and-global-variables)
+1. ["local" variables](https://github.com/ZeroSword-X/programming/tree/master/perl/scoping#temporary-global-variables-using-local)
+1. [Package variables](https://github.com/ZeroSword-X/programming/tree/master/perl/scoping#package-variables)
+1. ["static" variables](https://github.com/ZeroSword-X/programming/tree/master/perl/scoping#how-to-use-static-variable-in-perl-a-workaround)
+1. [Reference](https://github.com/ZeroSword-X/programming/tree/master/perl/scoping#reference)
 
 ---
 

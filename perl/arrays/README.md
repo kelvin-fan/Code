@@ -1,13 +1,13 @@
 ![Perl logo](https://www.brandeps.com/logo-download/P/Perl-01.png)
 
 ## Table of Contents
-1. [Perl arrays and Data::Dumper]()
-1. [foreach]()
-1. [size of an array]()
-1. [Command line arguments]()
-1. [split and join]()
-1. [Array Slices]()
-1. [splice]()
+1. [Perl arrays and Data::Dumper](https://github.com/ZeroSword-X/programming/tree/master/perl/arrays#basic-arraylist-operations-and-datadumper)
+1. [foreach](https://github.com/ZeroSword-X/programming/tree/master/perl/arrays#iterate-an-array-using-foreach)
+1. [Size of an array](https://github.com/ZeroSword-X/programming/tree/master/perl/arrays#the-size-of-an-array)
+1. [Command line arguments](https://github.com/ZeroSword-X/programming/tree/master/perl/arrays#argv-and-0)
+1. [split and join](https://github.com/ZeroSword-X/programming/tree/master/perl/arrays#split-and-join)
+1. [Array Slices](https://github.com/ZeroSword-X/programming/tree/master/perl/arrays#array-slices)
+1. [splice](https://github.com/ZeroSword-X/programming/tree/master/perl/arrays#using-splice-to-insertremovereplace-array-elements)
 
 ---
 

@@ -1,7 +1,7 @@
 ![Perl logo](https://www.brandeps.com/logo-download/P/Perl-01.png)
 
 ## Table of Contents
-1. [Hashes in Perl]()
+1. [Hashes in Perl](https://github.com/ZeroSword-X/programming/tree/master/perl/hashes#ways-to-manipulate-hashes-in-perl)
 
 ---
 

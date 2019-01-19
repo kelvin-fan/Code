@@ -1,14 +1,14 @@
 ![Perl logo](https://www.brandeps.com/logo-download/P/Perl-01.png)
 
 ## Table of Contents
-1. [Check if a variable id defined]()
-1. [Comparision operators]()
-1. [Operator precedence]()
-1. [STDIN]()
-1. [next and last]()
-1. [External command]()
-1. [Use while to read from a file]()
-1. [The diamond '<>']()
+1. [Check if a variable id defined](https://github.com/ZeroSword-X/programming/tree/master/perl/basic#check-if-a-variable-is-defined)
+1. [Comparision operators](https://github.com/ZeroSword-X/programming/tree/master/perl/basic#comparision-operators-in-perl)
+1. [Operator precedence](https://github.com/ZeroSword-X/programming/tree/master/perl/basic#operator-precedence)
+1. [<STDIN>](https://github.com/ZeroSword-X/programming/tree/master/perl/basic#read-from-stdin)
+1. [next and last](https://github.com/ZeroSword-X/programming/tree/master/perl/basic#flow-control-in-loops---next-and-last-more-on-compound-statement)
+1. [External command](https://github.com/ZeroSword-X/programming/tree/master/perl/basic#execute-an-external-command)
+1. [Use while to read from a file](https://github.com/ZeroSword-X/programming/tree/master/perl/basic#when-reading-a-file-using-the-while-loop-)
+1. [The diamond '<>'](https://github.com/ZeroSword-X/programming/tree/master/perl/basic#use-the-diamond--to-read-from-stdin-or-files)
 
 ---
 
