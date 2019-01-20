@@ -8,6 +8,7 @@
 1. [list comprehension](https://github.com/ZeroSword-X/programming/tree/master/python/advanced#list-and-dictionary-comprehension)
 1. [Index slices](https://github.com/ZeroSword-X/programming/tree/master/python/advanced#index-slices)
 1. [Exception handling](https://github.com/ZeroSword-X/programming/tree/master/python/advanced#exception-handling)
+1. [Decorators](https://github.com/ZeroSword-X/programming/tree/master/python/advanced#decorators)
 
 ---
 
@@ -137,6 +138,8 @@ else:
 <br>
 
 #### Decorators
+
+-   **Reference:**: [http://book.pythontips.com/en/latest/decorators.html](http://book.pythontips.com/en/latest/decorators.html)
 
 -   Decorators without arguments
 
