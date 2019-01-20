@@ -1,8 +1,8 @@
 ![PHP logo](http://php.net/images/logos/new-php-logo.png)
 
 ## Table of Contents
-1. [HTTP redirection](https://github.com/ZeroSword-X/programming/tree/master/php/basic#weird-php-code)
-1. [HTML form]()
+1. [HTTP redirection](https://github.com/ZeroSword-X/programming/tree/master/php/web#http-header-redirection)
+1. [HTML form](https://github.com/ZeroSword-X/programming/tree/master/php/web#send-data-to-php-with-html-form---formphp-and-formscriptphp)
 
 ---
 

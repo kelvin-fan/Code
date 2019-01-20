@@ -1,8 +1,8 @@
 ![PHP logo](http://php.net/images/logos/new-php-logo.png)
 
 ## Table of Contents
-1. [Writing to a file](https://github.com/ZeroSword-X/programming/tree/master/php/basic#weird-php-code)
-1. [Open a file]()
+1. [Writing to a file](https://github.com/ZeroSword-X/programming/tree/master/php/files#write-to-a-file-using-file_put_contents-in-php)
+1. [Open a file](https://github.com/ZeroSword-X/programming/tree/master/php/files#open-a-file-using-file-in-php)
 
 ---
 

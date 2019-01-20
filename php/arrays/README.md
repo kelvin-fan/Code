@@ -3,8 +3,8 @@
 ## Table of Contents
 1. [Arrays in PHP](https://github.com/ZeroSword-X/programming/tree/master/php/arrays#basic-use-of-arrays-in-php)
 1. [Sorting](https://github.com/ZeroSword-X/programming/tree/master/php/arrays#sorting-an-array)
-1. [foreach]()
-1. [Multidimensional array]()
+1. [foreach](https://github.com/ZeroSword-X/programming/tree/master/php/arrays#use-foreach-to-iterate-through-an-array)
+1. [Multidimensional array](https://github.com/ZeroSword-X/programming/tree/master/php/arrays#multi-dimensional-array)
 
 ---
 
