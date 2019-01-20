@@ -11,7 +11,7 @@
 
 ---
 
-### Ternary expression
+#### Ternary expression
 
 ```python
 #!/usr/bin/env python3
@@ -23,13 +23,13 @@ for i in range(5):
 
 <br>
 
-### `nonlocal` in python3
+#### `nonlocal` in python3
 
 - [Documentation about nonlocal statement in Python3](https://docs.python.org/3/reference/simple_stmts.html#grammar-token-nonlocal-stmt) ([Example](https://www.cnblogs.com/z360519549/p/5172020.html))
 
 <br>
 
-### `args` and `kwargs`
+#### `args` and `kwargs`
 
 ```python
 #!/usr/bin/env python3
@@ -48,7 +48,7 @@ foo(1, 2, 3, sth='something')
 
 <br>
 
-### List and Dictionary Comprehension
+#### List and Dictionary Comprehension
 
 ```python
 #!/usr/bin/env python3
@@ -69,9 +69,16 @@ l = [i
 print(l)   # output: [0, 3, 6, 9, 12, 15, 18]
 ```
 
+```python
+#!/usr/bin/env python3
+
+d = {k:v for k, v in enumerate(['aa', 'd12es', 44])}
+print(d)   # output: {0: 'aa', 1: 'd12es', 2: 44}
+```
+
 <br>
 
-### packing and unpacking
+#### packing and unpacking
 
 ```python
 #!/usr/bin/env python3
@@ -94,7 +101,7 @@ print(*l, **d)
 
 <br>
 
-### Index slices
+#### Index slices
 
 ```python
 #!/usr/bin/env python3
@@ -110,7 +117,7 @@ print(l[::3])
 
 <br>
 
-### Exception handling
+#### Exception handling
 
 ```python
 #!/usr/bin/env python3
@@ -126,3 +133,67 @@ else:
    # get executed when there is no exception raise in the try block
    print('No exception occur')
 ```
+
+<br>
+
+#### Decorators
+
+-   Decorators without arguments
+
+    ```python
+    #!/usr/bin/env python3
+    
+    def wrapFunc(f):
+       def decoratedFunc(*args, **kwargs):
+          print('Before calling the function foo ...')
+          f(*args, **kwargs)
+          print('After calling the function foo ...')
+       
+       return decoratedFunc
+    
+    # Equivalent to foo = wrapFunc(foo) (i.e. syntactic sugar)
+    @wrapFunc
+    def foo():
+       print('Hello World')
+    
+    foo()
+    ```
+
+-   Decorators with arguments 
+
+    ```python
+    from functools import wraps
+    
+    def logit(logfile='out.log'):
+       def logging_decorator(func):
+    
+          @wraps(func)
+          def wrapped_function(*args, **kwargs):
+             log_string = func.__name__ + " was called"
+             print(log_string)
+    
+             # Open the logfile and append
+             with open(logfile, 'a') as opened_file:
+                # Now we log to the specified logfile
+                opened_file.write(log_string + '\n')
+    
+          return wrapped_function
+    
+       return logging_decorator
+    
+    @logit()
+    def myfunc1():
+        pass
+    
+    myfunc1()
+    # Output: myfunc1 was called
+    # A file called out.log now exists, with the above string
+    
+    @logit(logfile='func2.log')
+    def myfunc2():
+        pass
+    
+    myfunc2()
+    # Output: myfunc2 was called
+    # A file called func2.log now exists, with the above string
+    ```
