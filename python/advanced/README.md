@@ -11,7 +11,7 @@
 
 ---
 
-#### Ternary expression
+### Ternary expression
 
 ```python
 #!/usr/bin/env python3
@@ -23,13 +23,13 @@ for i in range(5):
 
 <br>
 
-#### `nonlocal` in python3
+### `nonlocal` in python3
 
 - [Documentation about nonlocal statement in Python3](https://docs.python.org/3/reference/simple_stmts.html#grammar-token-nonlocal-stmt) ([Example](https://www.cnblogs.com/z360519549/p/5172020.html))
 
 <br>
 
-#### `args` and `kwargs`
+### `args` and `kwargs`
 
 ```python
 #!/usr/bin/env python3
@@ -48,7 +48,7 @@ foo(1, 2, 3, sth='something')
 
 <br>
 
-#### List and Dictionary Comprehension
+### List and Dictionary Comprehension
 
 ```python
 #!/usr/bin/env python3
@@ -71,7 +71,7 @@ print(l)   # output: [0, 3, 6, 9, 12, 15, 18]
 
 <br>
 
-#### packing and unpacking
+### packing and unpacking
 
 ```python
 #!/usr/bin/env python3
@@ -94,7 +94,7 @@ print(*l, **d)
 
 <br>
 
-#### Index slices
+### Index slices
 
 ```python
 #!/usr/bin/env python3
@@ -110,7 +110,7 @@ print(l[::3])
 
 <br>
 
-#### Exception handling
+### Exception handling
 
 ```python
 #!/usr/bin/env python3
