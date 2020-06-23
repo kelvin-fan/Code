@@ -40,3 +40,7 @@ call plug#end()
 " Usually put the below command at the bottom
 filetype indent off
 
+
+
+
+
