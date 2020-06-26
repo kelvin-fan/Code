@@ -12,6 +12,3 @@ if (defined $var1) {
    print "Not defined !!!\n";
 }
 
-
-
-
